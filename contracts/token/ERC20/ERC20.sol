@@ -55,7 +55,7 @@ contract ERC20 is Context, IERC20 {
     constructor (string memory name_, string memory symbol_) public {
         _name = name_;
         _symbol = symbol_;
-        _decimals = 0;
+        _decimals = 18;
     }
 
     /**
